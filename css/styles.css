@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+    width: 960px;
+    margin: 20px;
+}
+section {
+    width: 820px;
+    margin: 0 auto;
+    padding: 1em;
+}

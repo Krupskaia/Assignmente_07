@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 7 - The Jukebox Application (30 Points)</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jukebox.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>The Jukebox</h1>
+        <!-- ADD DROP DOWN MENU -->
+        <label>Pick an artist/album </label>
+        <select id="optionAlbums">
+        </select>
+        <!-- ADD PLAY BUTTON -->
+        <button id="btnPlay" type="button" onclick="getOption()">Play</button>
+
+        <!-- ADD SHOW FAVORITE ALBUM BUTTON -->
+        <br>
+        <br>
+        <button id="btnShow" type="button" onclick="favoriteAlbum()">Show my favorite album</button>
+        <br>
+        <p id="favoriteAlbum"></p>
+    </section>
+
+</body>
+
+</html>
